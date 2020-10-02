@@ -11,11 +11,11 @@ event.shouldInterrupt = function()
     return false
 end
 
-REPOSITORY = "https://raw.githubusercontent.com/krovyaka/OpenComputers-Casino-NoVirtual/master"
+REPOSITORY = "https://raw.githubusercontent.com/Angel172ir16/OpenComputers-Casino-NoVirtual/master"
 
 local state = {
-    title = "Приветствуем ваc у нас в казино на /warp a", -- TODO: Move to the config
-    admins = { "krovyak", "Durex77" }, -- TODO: Move to the config
+    title = "Приветствуем ваc у нас в казино на /warp 3d", -- TODO: Move to the config
+    admins = { "Angel172ir16", "Cyanide3D", "cobraonee" }, -- TODO: Move to the config
     selection = 1,
     devMode = false,
     currencyDropdown = false
