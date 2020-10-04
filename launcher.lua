@@ -11,7 +11,7 @@ event.shouldInterrupt = function()
     return false
 end
 
-REPOSITORY = "https://raw.githubusercontent.com/Angel172ir16/OpenComputers-Casino-NoVirtual/master"
+REPOSITORY = "https://raw.githubusercontent.com/Angel172ir16/OpenComputers-Casino-NoVirtual/tree/main"
 
 local state = {
     title = "Приветствуем ваc у нас в казино на /warp 3d", -- TODO: Move to the config
