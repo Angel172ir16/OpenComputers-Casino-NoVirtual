@@ -101,10 +101,10 @@ local function drawStatic()
     drawRectangleWithCenterText(1, 1, 160, 5, state.title, 0x431148, 0xFFFFFF)
 
     if (state.devMode) then
-        writeCenter(158, 1, "{dev}", 0xE700FF)
+        writeCenter(158, 1, "", 0xE700FF)
         writeCenter(160, 2, "X", 0xFF0000)
     else
-        writeCenter(158, 1, "{dev}", 0x78517C)
+        writeCenter(158, 1, "", 0x78517C)
     end
     buffer.drawRectangle(1, 6, 48, 45, 0xF2F2F2, 0, " ")
     buffer.drawChanges()
